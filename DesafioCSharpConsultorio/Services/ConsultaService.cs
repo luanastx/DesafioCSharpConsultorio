@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.Linq;
+=======
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
 using ConsultorioOdontologico.Models;
 using ConsultorioOdontologico.Repositories;
 
@@ -9,6 +12,7 @@ namespace ConsultorioOdontologico.Services
     public class ConsultaService
     {
         private readonly ConsultaRepository _consultaRepository;
+<<<<<<< HEAD
         private readonly PacienteService _pacienteService;
 
         public ConsultaService(ConsultaRepository consultaRepository, PacienteService pacienteService)
@@ -88,6 +92,16 @@ namespace ConsultorioOdontologico.Services
                 return false;
             }
 
+=======
+
+        public ConsultaService(ConsultaRepository consultaRepository)
+        {
+            _consultaRepository = consultaRepository;
+        }
+
+        public bool AgendarConsulta(string cpf, DateTime dataConsulta, TimeSpan horaInicial, TimeSpan horaFinal)
+        {
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
             var consulta = new Consulta
             {
                 CPF = cpf,
@@ -95,6 +109,7 @@ namespace ConsultorioOdontologico.Services
                 HoraInicial = horaInicial,
                 HoraFinal = horaFinal
             };
+<<<<<<< HEAD
 
             _consultaRepository.Adicionar(consulta);
             return true;
@@ -128,5 +143,15 @@ public List<Consulta> ListarConsultas()
         {
             return _pacienteService.ObterPacientePorCPF(cpf);
         }
+=======
+            _consultaRepository.Adicionar(consulta);
+            return true;
+        }
+
+        public List<Consulta> ListarConsultas()
+        {
+            return _consultaRepository.Listar();
+        }
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
     }
 }

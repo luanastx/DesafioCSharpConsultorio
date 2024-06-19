@@ -12,6 +12,7 @@ C:\Users\luana\Downloads\DesafioCSharpConsultorio\DesafioCSharpConsultorio\obj\D
 C:\Users\luana\Downloads\DesafioCSharpConsultorio\DesafioCSharpConsultorio\obj\Debug\net8.0\DesafioCSharpConsultorio.pdb
 C:\Users\luana\Downloads\DesafioCSharpConsultorio\DesafioCSharpConsultorio\obj\Debug\net8.0\DesafioCSharpConsultorio.genruntimeconfig.cache
 C:\Users\luana\Downloads\DesafioCSharpConsultorio\DesafioCSharpConsultorio\obj\Debug\net8.0\ref\DesafioCSharpConsultorio.dll
+<<<<<<< HEAD
 C:\Users\Luana\Documents\DesafioCSharpConsultorio-main\DesafioCSharpConsultorio\bin\Debug\net8.0\DesafioCSharpConsultorio.exe
 C:\Users\Luana\Documents\DesafioCSharpConsultorio-main\DesafioCSharpConsultorio\bin\Debug\net8.0\DesafioCSharpConsultorio.deps.json
 C:\Users\Luana\Documents\DesafioCSharpConsultorio-main\DesafioCSharpConsultorio\bin\Debug\net8.0\DesafioCSharpConsultorio.runtimeconfig.json
@@ -40,3 +41,5 @@ C:\Users\Luana\Documents\DesafioCSharpConsultorio\DesafioCSharpConsultorio\obj\D
 C:\Users\Luana\Documents\DesafioCSharpConsultorio\DesafioCSharpConsultorio\obj\Debug\net8.0\DesafioCSharpConsultorio.pdb
 C:\Users\Luana\Documents\DesafioCSharpConsultorio\DesafioCSharpConsultorio\obj\Debug\net8.0\DesafioCSharpConsultorio.genruntimeconfig.cache
 C:\Users\Luana\Documents\DesafioCSharpConsultorio\DesafioCSharpConsultorio\obj\Debug\net8.0\ref\DesafioCSharpConsultorio.dll
+=======
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79

@@ -8,11 +8,16 @@
     "net8.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Luana\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\luana\\.nuget\\packages\\": {}
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Luana\\Documents\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj",
       "projectName": "DesafioCSharpConsultorio",
       "projectPath": "C:\\Users\\Luana\\Documents\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj",
@@ -21,14 +26,28 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\luana\\Downloads\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj",
+      "projectName": "DesafioCSharpConsultorio",
+      "projectPath": "C:\\Users\\luana\\Downloads\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj",
+      "packagesPath": "C:\\Users\\luana\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\luana\\Downloads\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\luana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+<<<<<<< HEAD
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
+=======
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
       },
       "frameworks": {
         "net8.0": {
@@ -66,7 +85,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
       }
     }
   }

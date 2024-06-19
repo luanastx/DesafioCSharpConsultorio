@@ -1,5 +1,8 @@
 ﻿using System.Collections.Generic;
+<<<<<<< HEAD
 using System.Linq;
+=======
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
 using ConsultorioOdontologico.Models;
 
 namespace ConsultorioOdontologico.Repositories
@@ -17,6 +20,7 @@ namespace ConsultorioOdontologico.Repositories
         {
             return _consultas;
         }
+<<<<<<< HEAD
 
         public bool ConsultaExistente(string cpf, DateTime dataConsulta, TimeSpan horaInicial)
         {
@@ -36,5 +40,7 @@ namespace ConsultorioOdontologico.Repositories
         {
             return _consultas.OrderBy(c => c.DataConsulta).ThenBy(c => c.HoraInicial).ToList();
         }
+=======
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
     }
 }

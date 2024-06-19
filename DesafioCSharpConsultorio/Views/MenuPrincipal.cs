@@ -19,6 +19,7 @@ namespace ConsultorioOdontologico.Views
             while (true)
             {
                 Console.Clear();
+<<<<<<< HEAD
                 Console.WriteLine("Menu Principal");
                 Console.WriteLine("1. Cadastro de Pacientes");
                 Console.WriteLine("2. Agenda");
@@ -55,6 +56,14 @@ namespace ConsultorioOdontologico.Views
                 Console.WriteLine("3. Listar pacientes (ordenado por CPF)");
                 Console.WriteLine("4. Listar pacientes (ordenado por nome)");
                 Console.WriteLine("5. Voltar p/ menu principal");
+=======
+                Console.WriteLine("Consultório Odontológico");
+                Console.WriteLine("1. Cadastro de Pacientes");
+                Console.WriteLine("2. Agendamento de Consultas");
+                Console.WriteLine("3. Listar Pacientes");
+                Console.WriteLine("4. Listar Consultas");
+                Console.WriteLine("5. Sair");
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
                 Console.Write("Escolha uma opção: ");
 
                 var opcao = Console.ReadLine();
@@ -65,6 +74,7 @@ namespace ConsultorioOdontologico.Views
                         _pacienteController.CadastrarPaciente();
                         break;
                     case "2":
+<<<<<<< HEAD
                         _pacienteController.ExcluirPaciente();
                         break;
                     case "3":
@@ -72,6 +82,15 @@ namespace ConsultorioOdontologico.Views
                         break;
                     case "4":
                         _pacienteController.ListarPacientesOrdenadoPorNome();
+=======
+                        _consultaController.AgendarConsulta();
+                        break;
+                    case "3":
+                        _pacienteController.ListarPacientes();
+                        break;
+                    case "4":
+                        _consultaController.ListarConsultas();
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
                         break;
                     case "5":
                         return;
@@ -81,6 +100,7 @@ namespace ConsultorioOdontologico.Views
                 }
             }
         }
+<<<<<<< HEAD
 
         private void ExibirMenuAgenda()
         {
@@ -115,5 +135,7 @@ namespace ConsultorioOdontologico.Views
                 }
             }
         }
+=======
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
     }
 }

@@ -1,6 +1,9 @@
 ﻿using System;
 using ConsultorioOdontologico.Services;
+<<<<<<< HEAD
 using ConsultorioOdontologico.Models;
+=======
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
 
 namespace ConsultorioOdontologico.Controllers
 {
@@ -16,6 +19,7 @@ namespace ConsultorioOdontologico.Controllers
         public void CadastrarPaciente()
         {
             Console.Clear();
+<<<<<<< HEAD
             Console.WriteLine("Cadastro de Paciente");
 
             string nome;
@@ -29,12 +33,16 @@ namespace ConsultorioOdontologico.Controllers
                 }
                 Console.WriteLine("O nome deve ter pelo menos 5 caracteres. Tente novamente.");
             }
+=======
+            Console.WriteLine("Cadastro de Pacientes");
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
 
             string cpf;
             while (true)
             {
                 Console.Write("CPF: ");
                 cpf = Console.ReadLine();
+<<<<<<< HEAD
                 if (VerificadorCPF.Validar(cpf) && !_pacienteService.CPFExistente(cpf))
                 {
                     break;
@@ -87,12 +95,43 @@ namespace ConsultorioOdontologico.Controllers
             else
             {
                 Console.WriteLine("Não é possível excluir o paciente. Ele possui consultas futuras agendadas.");
+=======
+                if (VerificadorCPF.Validar(cpf))
+                {
+                    break;
+                }
+                Console.WriteLine("CPF inválido. Tente novamente.");
+            }
+
+            Console.Write("Nome: ");
+            var nome = Console.ReadLine();
+
+            DateTime dataNascimento;
+            while (true)
+            {
+                Console.Write("Data de Nascimento (dd/MM/yyyy): ");
+                if (DateTime.TryParse(Console.ReadLine(), out dataNascimento))
+                {
+                    break;
+                }
+                Console.WriteLine("Data de nascimento inválida. Tente novamente.");
+            }
+
+            if (_pacienteService.AdicionarPaciente(cpf, nome, dataNascimento))
+            {
+                Console.WriteLine("Paciente cadastrado com sucesso!");
+            }
+            else
+            {
+                Console.WriteLine("Erro ao cadastrar paciente. Verifique os dados e tente novamente.");
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
             }
 
             Console.WriteLine("Pressione qualquer tecla para continuar...");
             Console.ReadKey();
         }
 
+<<<<<<< HEAD
         public void ListarPacientesOrdenadoPorCPF()
         {
             Console.Clear();
@@ -125,6 +164,19 @@ namespace ConsultorioOdontologico.Controllers
             }
 
             Console.WriteLine(new string('-', 40));
+=======
+        public void ListarPacientes()
+        {
+            Console.Clear();
+            Console.WriteLine("Lista de Pacientes");
+            var pacientes = _pacienteService.ListarPacientes();
+
+            foreach (var paciente in pacientes)
+            {
+                Console.WriteLine($"CPF: {paciente.CPF}, Nome: {paciente.Nome}, Data de Nascimento: {paciente.DataNascimento:dd/MM/yyyy}, Idade: {paciente.Idade}");
+            }
+
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
             Console.WriteLine("Pressione qualquer tecla para continuar...");
             Console.ReadKey();
         }
