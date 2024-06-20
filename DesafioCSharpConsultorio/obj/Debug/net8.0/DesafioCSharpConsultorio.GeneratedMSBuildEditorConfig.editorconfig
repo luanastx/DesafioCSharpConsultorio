@@ -8,6 +8,14 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DesafioCSharpConsultorio
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Luana\Documents\DesafioCSharpConsultorio\DesafioCSharpConsultorio\
+=======
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\Luana\Documents\DesafioCSharpConsultorio\DesafioCSharpConsultorio\
+=======
+build_property.ProjectDir = C:\Users\luana\Downloads\DesafioCSharpConsultorio\DesafioCSharpConsultorio\
+>>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
+>>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

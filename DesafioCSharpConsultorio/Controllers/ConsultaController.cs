@@ -16,13 +16,21 @@ namespace ConsultorioOdontologico.Controllers
         {
             Console.Clear();
             Console.WriteLine("Agendamento de Consulta");
+<<<<<<< HEAD
+=======
+
+            Console.WriteLine("Agendamento de Consultas");
+>>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
 
             string cpf;
             while (true)
             {
                 Console.Write("CPF do Paciente: ");
                 cpf = Console.ReadLine();
+<<<<<<< HEAD
 
+=======
+>>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
                 if (VerificadorCPF.Validar(cpf) && _consultaService.PacienteExistente(cpf))
                 {
                     break;
@@ -64,7 +72,48 @@ namespace ConsultorioOdontologico.Controllers
                     break;
                 }
                 Console.WriteLine("Hora final inválida. Use o formato hh\\:mm.");
+<<<<<<< HEAD
                
+=======
+                if (VerificadorCPF.Validar(cpf))
+                {
+                    break;
+                }
+                Console.WriteLine("CPF inválido. Tente novamente.");
+            }
+
+            DateTime dataConsulta;
+            while (true)
+            {
+                Console.Write("Data da Consulta (dd/MM/yyyy): ");
+                if (DateTime.TryParse(Console.ReadLine(), out dataConsulta))
+                {
+                    break;
+                }
+                Console.WriteLine("Data da consulta inválida. Tente novamente.");
+            }
+
+            TimeSpan horaInicial;
+            while (true)
+            {
+                Console.Write("Hora Inicial (HH:mm): ");
+                if (TimeSpan.TryParse(Console.ReadLine(), out horaInicial))
+                {
+                    break;
+                }
+                Console.WriteLine("Hora inicial inválida. Tente novamente.");
+            }
+
+            TimeSpan horaFinal;
+            while (true)
+            {
+                Console.Write("Hora Final (HH:mm): ");
+                if (TimeSpan.TryParse(Console.ReadLine(), out horaFinal))
+                {
+                    break;
+                }
+                Console.WriteLine("Hora final inválida. Tente novamente.");
+>>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
             }
 
             if (_consultaService.AgendarConsulta(cpf, dataConsulta, horaInicial, horaFinal))
@@ -74,6 +123,10 @@ namespace ConsultorioOdontologico.Controllers
             else
             {
                 Console.WriteLine("Falha ao agendar a consulta. Verifique as mensagens de erro.");
+<<<<<<< HEAD
+=======
+                Console.WriteLine("Erro ao agendar consulta. Verifique os dados e tente novamente.");
+>>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
             }
 
             Console.WriteLine("Pressione qualquer tecla para continuar...");
