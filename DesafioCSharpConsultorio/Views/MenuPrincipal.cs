@@ -55,6 +55,7 @@ namespace ConsultorioOdontologico.Views
                 Console.WriteLine("3. Listar pacientes (ordenado por CPF)");
                 Console.WriteLine("4. Listar pacientes (ordenado por nome)");
                 Console.WriteLine("5. Voltar p/ menu principal");
+
                 Console.Write("Escolha uma opção: ");
 
                 var opcao = Console.ReadLine();

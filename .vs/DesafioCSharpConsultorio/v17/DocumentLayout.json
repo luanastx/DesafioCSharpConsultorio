@@ -1,105 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Luana\\Documents\\DesafioCSharpConsultorio\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A0D46DC2-2BA0-4DC3-B461-63FE6ED3740D}|DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj|c:\\users\\luana\\documents\\desafiocsharpconsultorio\\desafiocsharpconsultorio\\controllers\\consultacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0D46DC2-2BA0-4DC3-B461-63FE6ED3740D}|DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj|solutionrelative:desafiocsharpconsultorio\\controllers\\consultacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0D46DC2-2BA0-4DC3-B461-63FE6ED3740D}|DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj|c:\\users\\luana\\documents\\desafiocsharpconsultorio\\desafiocsharpconsultorio\\services\\consultaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0D46DC2-2BA0-4DC3-B461-63FE6ED3740D}|DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj|solutionrelative:desafiocsharpconsultorio\\services\\consultaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0D46DC2-2BA0-4DC3-B461-63FE6ED3740D}|DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj|c:\\users\\luana\\documents\\desafiocsharpconsultorio\\desafiocsharpconsultorio\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0D46DC2-2BA0-4DC3-B461-63FE6ED3740D}|DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj|solutionrelative:desafiocsharpconsultorio\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0D46DC2-2BA0-4DC3-B461-63FE6ED3740D}|DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj|c:\\users\\luana\\documents\\desafiocsharpconsultorio\\desafiocsharpconsultorio\\controllers\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0D46DC2-2BA0-4DC3-B461-63FE6ED3740D}|DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj|solutionrelative:desafiocsharpconsultorio\\controllers\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0D46DC2-2BA0-4DC3-B461-63FE6ED3740D}|DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj|c:\\users\\luana\\documents\\desafiocsharpconsultorio\\desafiocsharpconsultorio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0D46DC2-2BA0-4DC3-B461-63FE6ED3740D}|DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj|solutionrelative:desafiocsharpconsultorio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PacienteController.cs",
-              "DocumentMoniker": "C:\\Users\\Luana\\Documents\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\Controllers\\PacienteController.cs",
-              "RelativeDocumentMoniker": "DesafioCSharpConsultorio\\Controllers\\PacienteController.cs",
-              "ToolTip": "C:\\Users\\Luana\\Documents\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\Controllers\\PacienteController.cs",
-              "RelativeToolTip": "DesafioCSharpConsultorio\\Controllers\\PacienteController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T19:18:54.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PacienteService.cs",
-              "DocumentMoniker": "C:\\Users\\Luana\\Documents\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\Services\\PacienteService.cs",
-              "RelativeDocumentMoniker": "DesafioCSharpConsultorio\\Services\\PacienteService.cs",
-              "ToolTip": "C:\\Users\\Luana\\Documents\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\Services\\PacienteService.cs",
-              "RelativeToolTip": "DesafioCSharpConsultorio\\Services\\PacienteService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T19:18:53.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConsultaController.cs",
-              "DocumentMoniker": "C:\\Users\\Luana\\Documents\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\Controllers\\ConsultaController.cs",
-              "RelativeDocumentMoniker": "DesafioCSharpConsultorio\\Controllers\\ConsultaController.cs",
-              "ToolTip": "C:\\Users\\Luana\\Documents\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\Controllers\\ConsultaController.cs",
-              "RelativeToolTip": "DesafioCSharpConsultorio\\Controllers\\ConsultaController.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAADwv1sAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T18:59:09.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConsultaService.cs",
-              "DocumentMoniker": "C:\\Users\\Luana\\Documents\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\Services\\ConsultaService.cs",
-              "RelativeDocumentMoniker": "DesafioCSharpConsultorio\\Services\\ConsultaService.cs",
-              "ToolTip": "C:\\Users\\Luana\\Documents\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\Services\\ConsultaService.cs",
-              "RelativeToolTip": "DesafioCSharpConsultorio\\Services\\ConsultaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T18:59:02.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Luana\\Documents\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\Program.cs",
-              "RelativeDocumentMoniker": "DesafioCSharpConsultorio\\Program.cs",
-              "ToolTip": "C:\\Users\\Luana\\Documents\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\Program.cs",
-              "RelativeToolTip": "DesafioCSharpConsultorio\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T18:13:14.156Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

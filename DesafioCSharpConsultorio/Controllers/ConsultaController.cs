@@ -22,6 +22,7 @@ namespace ConsultorioOdontologico.Controllers
             {
                 Console.Write("CPF do Paciente: ");
                 cpf = Console.ReadLine();
+
                 if (VerificadorCPF.Validar(cpf) && _consultaService.PacienteExistente(cpf))
                 {
                     break;
@@ -63,6 +64,7 @@ namespace ConsultorioOdontologico.Controllers
                     break;
                 }
                 Console.WriteLine("Hora final inválida. Use o formato hh\\:mm.");
+               
             }
 
             if (_consultaService.AgendarConsulta(cpf, dataConsulta, horaInicial, horaFinal))
@@ -112,9 +114,9 @@ namespace ConsultorioOdontologico.Controllers
             }
 
             Console.Clear();
-            Console.WriteLine("-------------------------------------------------------------");
+            Console.WriteLine(new string('-', 40));
             Console.WriteLine("Data H.Ini H.Fim Tempo Nome Dt.Nasc.");
-            Console.WriteLine("-------------------------------------------------------------");
+            Console.WriteLine(new string('-', 40));
 
             var consultas = _consultaService.ListarConsultasOrdenadoPorDataHora();
             foreach (var consulta in consultas)
@@ -127,7 +129,7 @@ namespace ConsultorioOdontologico.Controllers
                 }
             }
 
-            Console.WriteLine("-------------------------------------------------------------");
+            Console.WriteLine(new string('-', 40));
             Console.WriteLine("Pressione qualquer tecla para continuar...");
             Console.ReadKey();
         }

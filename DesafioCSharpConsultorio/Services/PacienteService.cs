@@ -9,6 +9,7 @@ namespace ConsultorioOdontologico.Services
     public class PacienteService
     {
         private readonly PacienteRepository _pacienteRepository;
+
         private readonly ConsultaRepository _consultaRepository;
 
         public PacienteService(PacienteRepository pacienteRepository, ConsultaRepository consultaRepository)

@@ -87,6 +87,7 @@ namespace ConsultorioOdontologico.Controllers
             else
             {
                 Console.WriteLine("Não é possível excluir o paciente. Ele possui consultas futuras agendadas.");
+
             }
 
             Console.WriteLine("Pressione qualquer tecla para continuar...");

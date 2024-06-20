@@ -99,7 +99,8 @@ namespace ConsultorioOdontologico.Services
             _consultaRepository.Adicionar(consulta);
             return true;
         }
-public List<Consulta> ListarConsultas()
+
+        public List<Consulta> ListarConsultas()
         {
             return _consultaRepository.Listar();
         }

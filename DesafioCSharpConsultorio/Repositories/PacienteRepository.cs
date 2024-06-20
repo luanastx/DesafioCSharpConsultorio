@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections.Generic; 
 using System.Linq;
 using ConsultorioOdontologico.Models;
 
@@ -12,7 +12,6 @@ namespace ConsultorioOdontologico.Repositories
         {
             _pacientes.Add(paciente);
         }
-
         public void Remover(string cpf)
         {
             var paciente = _pacientes.FirstOrDefault(p => p.CPF == cpf);
