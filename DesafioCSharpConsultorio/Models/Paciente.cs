@@ -8,6 +8,5 @@ namespace ConsultorioOdontologico.Models
         public string Nome { get; set; }
         public DateTime DataNascimento { get; set; }
         public int Idade => DateTime.Now.Year - DataNascimento.Year - (DateTime.Now.DayOfYear < DataNascimento.DayOfYear ? 1 : 0);
-        public int Idade => DateTime.Now.Year - DataNascimento.Year;
     }
 }
