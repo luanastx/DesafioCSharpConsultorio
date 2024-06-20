@@ -29,10 +29,6 @@ namespace ConsultorioOdontologico.Controllers
                 }
                 Console.WriteLine("O nome deve ter pelo menos 5 caracteres. Tente novamente.");
             }
-<<<<<<< HEAD
-=======
-            Console.WriteLine("Cadastro de Pacientes");
->>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
 
             string cpf;
             while (true)
@@ -92,37 +88,6 @@ namespace ConsultorioOdontologico.Controllers
             {
                 Console.WriteLine("Não é possível excluir o paciente. Ele possui consultas futuras agendadas.");
 
-<<<<<<< HEAD
-=======
-                if (VerificadorCPF.Validar(cpf))
-                {
-                    break;
-                }
-                Console.WriteLine("CPF inválido. Tente novamente.");
-            }
-
-            Console.Write("Nome: ");
-            var nome = Console.ReadLine();
-
-            DateTime dataNascimento;
-            while (true)
-            {
-                Console.Write("Data de Nascimento (dd/MM/yyyy): ");
-                if (DateTime.TryParse(Console.ReadLine(), out dataNascimento))
-                {
-                    break;
-                }
-                Console.WriteLine("Data de nascimento inválida. Tente novamente.");
-            }
-
-            if (_pacienteService.AdicionarPaciente(cpf, nome, dataNascimento))
-            {
-                Console.WriteLine("Paciente cadastrado com sucesso!");
-            }
-            else
-            {
-                Console.WriteLine("Erro ao cadastrar paciente. Verifique os dados e tente novamente.");
->>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
             }
 
             Console.WriteLine("Pressione qualquer tecla para continuar...");
@@ -161,21 +126,6 @@ namespace ConsultorioOdontologico.Controllers
             }
 
             Console.WriteLine(new string('-', 40));
-<<<<<<< HEAD
-=======
-
-        public void ListarPacientes()
-        {
-            Console.Clear();
-            Console.WriteLine("Lista de Pacientes");
-            var pacientes = _pacienteService.ListarPacientes();
-
-            foreach (var paciente in pacientes)
-            {
-                Console.WriteLine($"CPF: {paciente.CPF}, Nome: {paciente.Nome}, Data de Nascimento: {paciente.DataNascimento:dd/MM/yyyy}, Idade: {paciente.Idade}");
-            }
-
->>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
             Console.WriteLine("Pressione qualquer tecla para continuar...");
             Console.ReadKey();
         }

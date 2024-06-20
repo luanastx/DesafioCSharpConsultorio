@@ -1,20 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "NxdW8cL2NG0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Luana\\Documents\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj",
-=======
-<<<<<<< HEAD
-  "dgSpecHash": "NxdW8cL2NG0=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Luana\\Documents\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj",
-=======
-  "dgSpecHash": "uzKjEXHQbck=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\luana\\Downloads\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio\\DesafioCSharpConsultorio.csproj",
->>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
->>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
   "expectedPackageFiles": [],
   "logs": [
     {

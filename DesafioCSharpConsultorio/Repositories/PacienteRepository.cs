@@ -1,13 +1,5 @@
-<<<<<<< HEAD
-﻿using System.Collections.Generic; 
+using System.Collections.Generic; 
 using System.Linq;
-=======
-﻿using System.Collections.Generic;
-<<<<<<< HEAD
-using System.Linq;
-=======
->>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
->>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
 using ConsultorioOdontologico.Models;
 
 namespace ConsultorioOdontologico.Repositories
@@ -20,11 +12,7 @@ namespace ConsultorioOdontologico.Repositories
         {
             _pacientes.Add(paciente);
         }
-<<<<<<< HEAD
-=======
 
-<<<<<<< HEAD
->>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
         public void Remover(string cpf)
         {
             var paciente = _pacientes.FirstOrDefault(p => p.CPF == cpf);
@@ -52,14 +40,7 @@ namespace ConsultorioOdontologico.Repositories
         public Paciente ObterPorCPF(string cpf)
         {
             return _pacientes.FirstOrDefault(p => p.CPF == cpf);
-<<<<<<< HEAD
-=======
-=======
-        public List<Paciente> Listar()
-        {
-            return _pacientes;
->>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
->>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
+
         }
     }
 }

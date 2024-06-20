@@ -1,13 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-<<<<<<< HEAD
 using System.Linq;
-=======
-<<<<<<< HEAD
-using System.Linq;
-=======
->>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
->>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
 using ConsultorioOdontologico.Models;
 using ConsultorioOdontologico.Repositories;
 
@@ -16,11 +9,6 @@ namespace ConsultorioOdontologico.Services
     public class PacienteService
     {
         private readonly PacienteRepository _pacienteRepository;
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
->>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
         private readonly ConsultaRepository _consultaRepository;
 
         public PacienteService(PacienteRepository pacienteRepository, ConsultaRepository consultaRepository)
@@ -76,36 +64,6 @@ namespace ConsultorioOdontologico.Services
         public Paciente ObterPacientePorCPF(string cpf)
         {
             return _pacienteRepository.ObterPorCPF(cpf);
-<<<<<<< HEAD
-=======
-=======
-
-        public PacienteService(PacienteRepository pacienteRepository)
-        {
-            _pacienteRepository = pacienteRepository;
-        }
-
-        public bool AdicionarPaciente(string cpf, string nome, DateTime dataNascimento)
-        {
-            if (VerificadorCPF.Validar(cpf))
-            {
-                var paciente = new Paciente
-                {
-                    CPF = cpf,
-                    Nome = nome,
-                    DataNascimento = dataNascimento
-                };
-                _pacienteRepository.Adicionar(paciente);
-                return true;
-            }
-            return false;
-        }
-
-        public List<Paciente> ListarPacientes()
-        {
-            return _pacienteRepository.Listar();
->>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
->>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
         }
     }
 }

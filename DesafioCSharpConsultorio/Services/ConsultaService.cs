@@ -1,13 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-<<<<<<< HEAD
 using System.Linq;
-=======
-<<<<<<< HEAD
-using System.Linq;
-=======
->>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
->>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
 using ConsultorioOdontologico.Models;
 using ConsultorioOdontologico.Repositories;
 
@@ -16,10 +9,6 @@ namespace ConsultorioOdontologico.Services
     public class ConsultaService
     {
         private readonly ConsultaRepository _consultaRepository;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
         private readonly PacienteService _pacienteService;
 
         public ConsultaService(ConsultaRepository consultaRepository, PacienteService pacienteService)
@@ -99,19 +88,6 @@ namespace ConsultorioOdontologico.Services
                 return false;
             }
 
-<<<<<<< HEAD
-=======
-=======
-
-        public ConsultaService(ConsultaRepository consultaRepository)
-        {
-            _consultaRepository = consultaRepository;
-        }
-
-        public bool AgendarConsulta(string cpf, DateTime dataConsulta, TimeSpan horaInicial, TimeSpan horaFinal)
-        {
->>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
->>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
             var consulta = new Consulta
             {
                 CPF = cpf,
@@ -119,20 +95,13 @@ namespace ConsultorioOdontologico.Services
                 HoraInicial = horaInicial,
                 HoraFinal = horaFinal
             };
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
 
             _consultaRepository.Adicionar(consulta);
             return true;
         }
-<<<<<<< HEAD
+
 
         public List<Consulta> ListarConsultas()
-=======
-public List<Consulta> ListarConsultas()
->>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
         {
             return _consultaRepository.Listar();
         }
@@ -161,18 +130,5 @@ public List<Consulta> ListarConsultas()
         {
             return _pacienteService.ObterPacientePorCPF(cpf);
         }
-<<<<<<< HEAD
-=======
-=======
-            _consultaRepository.Adicionar(consulta);
-            return true;
-        }
-
-        public List<Consulta> ListarConsultas()
-        {
-            return _consultaRepository.Listar();
-        }
->>>>>>> a0dc5e61dd2bf873b782059fa2d02b92ab301b79
->>>>>>> 87fa56328a1421ebcd0eb13a7135485f7f74406e
     }
 }
